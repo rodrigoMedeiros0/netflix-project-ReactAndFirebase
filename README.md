@@ -87,9 +87,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[useState](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
--   **[useEffect](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
--   **[useContext](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
+-   **[useState](https://legacy.reactjs.org/docs/hooks-reference.html#usestate)**
+-   **[useEffect](https://legacy.reactjs.org/docs/hooks-reference.html#useeffect)**
+-   **[useContext](https://legacy.reactjs.org/docs/hooks-reference.html#usecontext)**
 
 
 #### **Server**  ([Firebase](https://firebase.google.com/?hl=pt-br)) 
