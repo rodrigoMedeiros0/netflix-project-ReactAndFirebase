@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaHome.PNG" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `npm start`
+Project-netflix é um projeto reacriando o site da Netflix, copiando algumas de suas funcionalidades. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Acesse  o deploy: https://netflix-project-87ca7.web.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Página home:
+  - Carrega novos filmes 
+  - Usúario tem acesso ao link que leva a tela de cadastro
+  - Usúario tem acesso ao link que leva a tela de login
+- [x] Página Cadastro:
+  - Cria novo úsuario 
+  - Informa se há algum erro: email repetido ou senha fraca
+- [x] Página Login:
+  - Loga o úsuario que há o cadastro no banco de dados
+  - Informa se há algum erro de senha ou email inválidos
+- [x] Página De logado:
+   - O úsuario pode passar o mouse pelos card dos filmes e clicar no like (ícone de coração) para adicionar aos favoritos
+  -  O úsuario pode ir para página Conta
+  -  O úsuario pode fazer loggout da conta
+- [x] Página de Conta:
+  -  Usúario tem acesso a lista de filmes favoritos 
+  -  Usúario pode excluir filmes da lista de filmes favoritos 
+  -  O úsuario pode fazer loggout da cont
+  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Layout
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O layout da aplicação:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1 align="center">
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaHome.PNG" />
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaCadastro.PNG" />
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaLogin.PNG" />
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaLogado.PNG" />
+    <img alt="#Projeto Netflix" title="#Projeto Netflix" src="./src/assets/telaConta.PNG" />
 
-### `npm run eject`
+</h1>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🚀 Pré-requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧭 Rodando a aplicação web (Frontend)
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clone este repositório
+$ git clone https://github.com/rodrigoMedeiros0/netflix-project-ReactAndFirebase.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd netflix-project
 
-### Code Splitting
+# Instale as dependências
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-### Analyzing the Bundle Size
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠 Tecnologias
 
-### Advanced Configuration
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### **Website**  ([React](https://reactjs.org/)  +  [Tailwind](https://tailwindcss.com))
 
-### Deployment
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[useState](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
+-   **[useEffect](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
+-   **[useContext](https://legacy.reactjs.org/docs/hooks-reference.html#additional-hooks)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+#### **Server**  ([Firebase](https://firebase.google.com/?hl=pt-br)) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   **[Authentication](https://firebase.google.com/docs/auth?hl=pt-br)**
+-   **[Database](https://firebase.google.com/docs/database/web/start?hl=pt-br)**
+-   **[Hosting](https://firebase.google.com/docs/hosting?hl=pt-br)**
+
+
+> Veja o arquivo  [package.json](https://github.com/rodrigoMedeiros0/netflix-project-ReactAndFirebase/blob/main/package.json)
+
+---
+
+## 💪 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença.
+
+Feito com ❤️ por Rodrigo Medeiros 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rodrigo--medeiros/)
