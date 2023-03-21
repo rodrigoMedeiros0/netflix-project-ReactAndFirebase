@@ -11,7 +11,7 @@ const Navbar = () => {
       await logOut();
       navigate("/");
     } catch (error) {
-      alert.log(error);
+      alert(error);
     }
   };
 
